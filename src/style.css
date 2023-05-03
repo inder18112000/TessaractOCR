@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@1,100&display=swap');
+.parent {
+    background-color: #12232E;
+    min-height: 100vh;
+    height: 100%;
+}
+
 body {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.title {
+    color: #4DA8DA;
+    padding-top: 36px;
+    font-family: "Bruno Ace SC";
+}
+
+.my-button {
+    background-color: #007CC7 !important;
+    margin-top: 50px;
+}
+
+.my-button:hover {
+    background-color: #4DA8DA !important;
+    margin-top: 50px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rs-play {
+    margin-top: 10px;
+    width: 40px;
 }
